@@ -26,4 +26,4 @@ sudo modprobe -v b43
 ```
 
 #insert gist
-{% gist a890f895aff82d4289710e040b532e14 %}
+<script src="https://gist.github.com/benjamin-sh/a890f895aff82d4289710e040b532e14.js"></script>
