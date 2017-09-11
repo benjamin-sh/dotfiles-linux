@@ -53,3 +53,11 @@ https://nodejs.org/en/download/package-manager/
 ```
 sudo yum install mysql mysql-server
 ```
+To start MariaDB on Fedora 20, execute the following command:
+```
+systemctl start mariadb.service
+```
+Once it is done installing, you can set a root MySQL password:
+```
+sudo /usr/bin/mysql_secure_installation
+```
