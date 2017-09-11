@@ -11,12 +11,12 @@ lspci | grep -i network
 ```
 #### Mise à jour des paquets et installation du firmware pour les cartes broadcom
 
-####On Ubuntu
+#### On Ubuntu
 ```
 sudo apt-get update
 sudo apt-get install firmware-b43-installer
 ```
-####On Fedora
+#### On Fedora
 ```
 sudo yum update
 sudo yum install firmware-b43-installer
