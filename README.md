@@ -1,13 +1,13 @@
 # dotfiles-linux
 Dotfiles pour configuration linux en cas de formatage
 
-##Install wireless (broadcom ubuntu 4331)
+### Install wireless (broadcom ubuntu 4331)
 
-#Affichage des périphériques de réseau PCI
+#### Affichage des périphériques de réseau PCI
 ```
 lspci | grep -i network
 ```
-#Mise à jour des paquets et installation du firmware pour les cartes broadcom
+#### Mise à jour des paquets et installation du firmware pour les cartes broadcom
 
 ```
 sudo apt-get update
@@ -15,7 +15,7 @@ sudo apt-get install firmware-b43-installer
 ```
 (Reboot if it does not connect post a new file from the script.)
 
-#No internet:
+#### No internet:
 
 Download the b43updated.zip file to a usb flash drive then drag and drop the file to your ubuntu desktop. Right-click it and select Extract Here.
 
