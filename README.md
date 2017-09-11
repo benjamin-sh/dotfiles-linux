@@ -27,3 +27,22 @@ sudo cp Desktop/b43/*  /lib/firmware/b43
 sudo modprobe -rv b43 
 sudo modprobe -v b43
 ```
+
+
+### Install Nodejs
+https://nodejs.org/en/download/package-manager/
+
+
+### Install Chrome
+
+
+### Install Apache, Mysql
+
+#### Apache
+##### Installed on fedora
+
+#### Mysql
+##### On fedora
+```
+sudo yum install mysql mysql-server
+```
