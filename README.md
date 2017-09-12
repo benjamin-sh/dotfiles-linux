@@ -61,3 +61,10 @@ Once it is done installing, you can set a root MySQL password:
 ```
 sudo /usr/bin/mysql_secure_installation
 ```
+
+#### PhpMyAdmin
+##### On fedora
+```
+yum install phpmyadmin
+```
+
